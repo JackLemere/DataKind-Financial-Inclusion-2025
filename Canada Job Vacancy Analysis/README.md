@@ -7,7 +7,7 @@ Insights are provided based on the following data:
 
 The Excel Workbook used for exploring the data for this analysis can be found here [link].
 
-Python was used to scrap some of the data used for this analysis, the code can be found here [link]
+Python was used to scrap some of the data used for this analysis, the code can be found [here](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/Stats%20Canada%20Workforce%20Data%20Scrape.ipynb).
 
 A Tableau dashboard containing the relevant visualizations as seen below can be found [here](https://public.tableau.com/app/profile/jack.lemere5367/viz/CanadaJobTrends/Dashboard1?publish=yes).
 
@@ -48,7 +48,7 @@ The trends identified so far also coincide with a small increase in unemployment
 # Recommendations:
 
 Although there is a host of potential additions that would help to enrich this analysis, I believe the following should be further explored: 
--	What is causing the total number jobs vacancies with little education or experience to decline in recent years? Some possibilities may include evolving education demographics, emerging and declining business sectors, policy changes, etc.
+-	What is causing the total number jobs vacancies with little education or experience to decline in recent years? Some possibilities may involve new technological advancements, evolving education demographics, emerging and declining business sectors, policy changes, etc.
 -	How much of an impact do these changing trends have on economic opportunity for those who fall in these demographics? Further analysis on whether these types of jobs are now more competitive and causing difficulty in securing employment would be beneficial.
 -	If these trends are indicators of lower economic opportunity, what can be done to mitigate it? Having a clearer picture of the job market would help further initiatives such as getting people better access to job experience and education or creating more jobs in which these potential barriers are not required.
 -	What other datasets can these be merged with to further these insights? Ex. Could unemployment rate be broken down by education or experience? How are various sectors affected?
