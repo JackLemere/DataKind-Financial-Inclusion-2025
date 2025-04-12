@@ -5,8 +5,6 @@ Insights are provided based on the following data:
 -	Unemployment Rate: The percentage of participating Canadian workers unable to find jobs.
 -	Total Workers in Canada: An evaluation of how much the total workforce is increasing.
 
-The Excel Workbook used for exploring the data for this analysis can be found here [link].
-
 Python was used to scrap some of the data used for this analysis, the code can be found [here](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/Stats%20Canada%20Workforce%20Data%20Scrape.ipynb).
 
 A Tableau dashboard containing the relevant visualizations as seen below can be found [here](https://public.tableau.com/app/profile/jack.lemere5367/viz/CanadaJobTrends/Dashboard1?publish=yes).
