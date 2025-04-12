@@ -7,16 +7,18 @@ Insights are provided based on the following data:
 
 The Excel Workbook used for exploring the data for this analysis can be found here [link].
 
-Python was used to scrap some of the data used for analysis, the code can be found here [link]
+Python was used to scrap some of the data used for this analysis, the code can be found here [link]
 
-A Tableau dashboard containing the relevant visualizations can be found [here](https://public.tableau.com/app/profile/jack.lemere5367/viz/CanadaJobTrends/Dashboard1?publish=yes).
+A Tableau dashboard containing the relevant visualizations as seen below can be found [here](https://public.tableau.com/app/profile/jack.lemere5367/viz/CanadaJobTrends/Dashboard1?publish=yes).
+
+![alt text](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/dashboard.png "Dashboard")
 
 # Data
 
 The data used in this analysis examined 3 different tables:
--	Statistics Canada. Table 14-10-0443-01  Job vacancies, proportion of job vacancies and average offered hourly wage by occupation and selected characteristics, quarterly, unadjusted for seasonality
--	Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual
--	Statistics Canada. Table 14-10-0288-02  Employment by class of worker, monthly, seasonally adjusted (x 1,000)
+-	Statistics Canada. Table 14-10-0443-01  Job vacancies, proportion of job vacancies and average offered hourly wage by occupation and selected characteristics, quarterly, unadjusted for seasonality [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044301&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2016&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20160101%2C20241001)
+-	Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual [link](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410002001)
+-	Statistics Canada. Table 14-10-0288-02  Employment by class of worker, monthly, seasonally adjusted (x 1,000) [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=3.1&cubeTimeFrame.startMonth=02&cubeTimeFrame.startYear=2000&referencePeriods=20000201%2C20000201)
 
 # Summary
 
@@ -33,13 +35,15 @@ The following insights have been noted:
 
 The first analysis done was on job vacancies in relation to the necessary experience required for those jobs. The first dataset breaks down the total job vacancies by the amount of experience required by each job. They are split into categories Less than 1 year, 1-3 years, 3-5 years, 5-8 years, and 8+ years. By examining these job vacancies by their required experience, it was found that the number of jobs that require no experience has been declining particularly heavily over the past two years. The total number of job vacancies for all other experience levels appears to reflect the general growth of employment in Canada, though the number of job vacancies requiring no experience has fallen to its lowest tally since 2017 despite a growing population of workers. This may be an indication that jobs that fall into these categories are becoming increasingly competitive. Having a more competitive job market is generally good for businesses, however it may lead to more barriers for job applicants in these affected demographics to feel more obstacles when job seeking, leading to a decrease in economic opportunities.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+![alt text](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/jobs%20by%20experience.png "Job Vacancy By Experience")
 
 A similar comparison can be made when it comes to education. The dataset also breaks down job vacancies by their minimum education requirements. These requirements are broken down into no minimum education required, high school diploma, non-university certificate, university certificate below bachelor’s degree, bachelor’s degree, and university certificate above bachelor’s degree. What was found was that jobs with lower education requirements are seeing a stronger decrease in vacancies than jobs with higher education requirements. Since 2016, jobs with no education requirements followed by high school diploma jobs have seen the highest number of vacancies than any other category. As of 2024, the jobs that have highest proportion of vacancies are those that require at least a non-university certificate. Similarly to the experiential analysis, having a lack of education may lead to increased competition from some people when searching for work, resulting in lowered economic opportunities. 
 
+![alt text](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/jobs%20by%20education.png "Job Vacancy By Education")
+
 The trends identified so far also coincide with a small increase in unemployment rate. Apart from the large increase in unemployment during the COVID-19 lockdown periods, the unemployment rate in Canada had been steadily decreasing. However, 2024 saw an increase in unemployment rate for the first time since 2020. Despite a consistent increase in the number of workers in Canada over the years, the number of total job vacancies in all areas has seen a decline in recent years. This may indicate higher job market competition in general, though the previous analysis would indicate those with low education or experience are likely the most affected.
 
-[Visualization specific to category 1]
+![alt text](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/overall%20trends.png "Job Trends in Canada")
 
 # Recommendations:
 
@@ -47,3 +51,4 @@ Although there is a host of potential additions that would help to enrich this a
 -	What is causing the total number jobs vacancies with little education or experience to decline in recent years? Some possibilities may include evolving education demographics, emerging and declining business sectors, policy changes, etc.
 -	How much of an impact do these changing trends have on economic opportunity for those who fall in these demographics? Further analysis on whether these types of jobs are now more competitive and causing difficulty in securing employment would be beneficial.
 -	If these trends are indicators of lower economic opportunity, what can be done to mitigate it? Having a clearer picture of the job market would help further initiatives such as getting people better access to job experience and education or creating more jobs in which these potential barriers are not required.
+-	What other datasets can these be merged with to further these insights? Ex. Could unemployment rate be broken down by education or experience? How are various sectors affected?
