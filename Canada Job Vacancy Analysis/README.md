@@ -14,9 +14,9 @@ A Tableau dashboard containing the relevant visualizations as seen below can be 
 # Data
 
 The data used in this analysis examined 3 different tables:
--	Statistics Canada. Table 14-10-0443-01  Job vacancies, proportion of job vacancies and average offered hourly wage by occupation and selected characteristics, quarterly, unadjusted for seasonality [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044301&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2016&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20160101%2C20241001)
--	Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual [link](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410002001)
--	Statistics Canada. Table 14-10-0288-02  Employment by class of worker, monthly, seasonally adjusted (x 1,000) [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=3.1&cubeTimeFrame.startMonth=02&cubeTimeFrame.startYear=2000&referencePeriods=20000201%2C20000201)
+-	Table 1: Statistics Canada. Table 14-10-0443-01  Job vacancies, proportion of job vacancies and average offered hourly wage by occupation and selected characteristics, quarterly, unadjusted for seasonality [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044301&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2016&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20160101%2C20241001)
+-	Table 2: Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual [link](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410002001)
+-	Table 3: Statistics Canada. Table 14-10-0288-02  Employment by class of worker, monthly, seasonally adjusted (x 1,000) [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=3.1&cubeTimeFrame.startMonth=02&cubeTimeFrame.startYear=2000&referencePeriods=20000201%2C20000201)
 
 # Summary
 
@@ -43,10 +43,30 @@ The trends identified so far also coincide with a small increase in unemployment
 
 ![alt text](https://github.com/JackLemere/DataKind-Financial-Inclusion-2025/blob/main/Canada%20Job%20Vacancy%20Analysis/overall%20trends.png "Job Trends in Canada")
 
-# Recommendations:
+# Further Questions:
 
 Although there is a host of potential additions that would help to enrich this analysis, I believe the following should be further explored: 
 -	What is causing the total number jobs vacancies with little education or experience to decline in recent years? Some possibilities may involve new technological advancements, evolving education demographics, emerging and declining business sectors, policy changes, etc.
 -	How much of an impact do these changing trends have on economic opportunity for those who fall in these demographics? Further analysis on whether these types of jobs are now more competitive and causing difficulty in securing employment would be beneficial.
 -	If these trends are indicators of lower economic opportunity, what can be done to mitigate it? Having a clearer picture of the job market would help further initiatives such as getting people better access to job experience and education or creating more jobs in which these potential barriers are not required.
 -	What other datasets can these be merged with to further these insights? Ex. Could unemployment rate be broken down by education or experience? How are various sectors affected?
+
+# Analysis Process
+
+Before beginning this analysis, I first decided to try to really understand the objective in detail by diving deep into what financial inclusion and economic opportunity meant in Canada. I highlighted definitions, clear examples, and then brainstormed what may be promoting or hindering access to these examples. This gave me a better idea of what kind of data to seek out. DataKind has kindly provided some examples of this, which included:
+
+- Job availability: Access to employment that offers fair wages and benefits.
+- Entrepreneurship: Opportunities to start and grow businesses (e.g. access credit or loans).
+- Education and skill development: Access to training and education to enhance employability.
+- Access to markets and financial services: Opportunities to access capital, resources, and markets for economic growth.
+- Home or land ownership: Opportunity to contribute to long-term financial security and wealth generation.
+
+I then began searching for datasets relating to these topics and found Statistics Canada to be a great open source for these topics. From there I found the table that I would use as Table 1 for this analysis, and began drawing insights from what I saw. I primarily used Excel to sort and filter the data as needed in order to draw out some insights. I would then document insights I found and share them here. I have shared the excel document in which I analysed most of the data here.
+
+# Things That Did Not Work and Works in Progress
+
+- At first I wanted to compare the growth rate of job vacancies to the overall population of Canada, however I noted that much of the population growth in Canada was not a true reflection of job demand in Canada due to many Canadians not requiring employment. I then decided to search for more relevant data and came across Table 3 which highlights the total number of employees in Canada over time.
+
+- Knowing I wanted to utilize Table 3 for my analysis, I first decided to try to use the data as it was presented on the Statistics Canada website. This method however saw some problems, as I could not have all the time periods I required in one table, meaning I would have had to download each table seperately and merge them together. To get around this, I created a Python script that would scrape the data for me and give me the totals for all working employees in Canada over the time period I required.
+
+- When examining unemployment rate, the dataset I found had the unemployment rates for each level of education. This was initially very useful as I had done analysis on various education levels and wanted to compare them. One issue I had was that the data was divided in different groups, this one including categories such as 'Years 0-8' for an education group which my prior dataset did not include. As a result, I was not able to find a way to accurately merge these tables since I did not have information on the total populations of these groups and only had the unemployed percentages. This is something I hope I can continue to build on and hopefully find a way to merge these tables to further my insights.
