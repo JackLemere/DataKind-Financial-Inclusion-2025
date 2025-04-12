@@ -14,9 +14,9 @@ A Tableau dashboard containing the relevant visualizations as seen below can be 
 # Data
 
 The data used in this analysis examined 3 different tables:
--	Table 1: Statistics Canada. Table 14-10-0443-01  Job vacancies, proportion of job vacancies and average offered hourly wage by occupation and selected characteristics, quarterly, unadjusted for seasonality [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044301&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2016&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20160101%2C20241001)
--	Table 2: Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual [link](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410002001)
--	Table 3: Statistics Canada. Table 14-10-0288-02  Employment by class of worker, monthly, seasonally adjusted (x 1,000) [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=3.1&cubeTimeFrame.startMonth=02&cubeTimeFrame.startYear=2000&referencePeriods=20000201%2C20000201)
+-	**Table 1**: Statistics Canada. Table 14-10-0443-01  Job vacancies, proportion of job vacancies and average offered hourly wage by occupation and selected characteristics, quarterly, unadjusted for seasonality [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410044301&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=2.1&cubeTimeFrame.startMonth=01&cubeTimeFrame.startYear=2016&cubeTimeFrame.endMonth=10&cubeTimeFrame.endYear=2024&referencePeriods=20160101%2C20241001)
+-	**Table 2**: Statistics Canada. Table 14-10-0020-01  Unemployment rate, participation rate and employment rate by educational attainment, annual [link](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1410002001)
+-	**Table 3**: Statistics Canada. Table 14-10-0288-02  Employment by class of worker, monthly, seasonally adjusted (x 1,000) [link](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1410028802&pickMembers%5B0%5D=1.1&pickMembers%5B1%5D=3.1&cubeTimeFrame.startMonth=02&cubeTimeFrame.startYear=2000&referencePeriods=20000201%2C20000201)
 
 # Summary
 
