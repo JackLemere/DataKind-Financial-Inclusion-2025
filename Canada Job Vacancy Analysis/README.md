@@ -53,7 +53,7 @@ Although there is a host of potential additions that would help to enrich this a
 
 # Analysis Process
 
-Before beginning this analysis, I first decided to try to really understand the objective in detail by diving deep into what financial inclusion and economic opportunity meant in Canada. I highlighted definitions, clear examples, and then brainstormed what may be promoting or hindering access to these examples. This gave me a better idea of what kind of data to seek out. DataKind has kindly provided some examples of this, which included:
+Before beginning this analysis, I first decided to try to really understand the objective in detail by diving deep into what financial inclusion and economic opportunity meant in Canada. I highlighted definitions, clear examples, and then brainstormed what may be promoting or hindering access to these examples. This gave me a better idea of what kind of data to seek out. DataKind has kindly provided some examples of this, which include:
 
 - Job availability: Access to employment that offers fair wages and benefits.
 - Entrepreneurship: Opportunities to start and grow businesses (e.g. access credit or loans).
